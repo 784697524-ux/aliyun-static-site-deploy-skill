@@ -1,0 +1,6 @@
+interface:
+  display_name: "阿里云静态站上线"
+  short_description: "整理前端官网并发布到阿里云无域名预览"
+  default_prompt: "Use $aliyun-static-site-deploy to inspect this frontend website, choose EMAS or OSS deployment, guide any Aliyun/GitHub secret hand-off, deploy when ready, and verify the public URL."
+policy:
+  allow_implicit_invocation: true
